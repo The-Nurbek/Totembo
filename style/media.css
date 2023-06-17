@@ -1,0 +1,117 @@
+@media (max-width: 1200px) {
+  .nav__items{
+    flex-direction: column;
+    align-items: center;
+  }
+  .leaders__cards{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .three{
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px
+  }
+  .header_card{
+    padding: 73px 50px 47px 50px;
+  }
+  .header__cards{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .last__news_content-top{
+    padding: 110px 110px 80px 60px;
+  }
+  .footer__items{
+    justify-content: center;
+    gap: 150px;
+  }
+}
+@media (max-width: 992px) {
+  .header__cards{
+    grid-template-areas:
+    "one"
+    "two"
+    'three';
+  }
+  .three{
+    grid-column: auto;
+  }
+  .one{
+    width: unset;
+  }
+  .header_card{
+    justify-content: center;
+    flex-direction: column;
+    padding: 73px 43px 47px 90px;
+  }
+  .leaders__cards{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .last__news_cards{
+    flex-wrap: wrap;
+  }
+  .footer__items_first{
+    padding-left: 60px;
+  }
+  .footer__items_third{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.footer__items{
+  gap: 40px;
+  align-items: center;
+  flex-direction: column;
+}
+.footer__items_contacts{
+  flex-direction: column;
+  text-align: center;
+}
+.footer__items_social-media{
+  align-self: unset;
+  justify-content: center;
+
+}
+  }
+
+@media (max-width: 768px) {
+  .nav_list{
+    gap: 15px;
+  }
+  
+}
+@media (max-width: 576px) {
+  .last__news_title{
+    font-size: 26px;
+  }
+  .nav_list{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .header_card{
+    padding: 73px 13px 47px 50px;
+  }
+  .leaders__card{
+    padding: 73px 9px 47px 13px;
+  }
+  .footer__items_text{
+    text-align: center;
+  }
+}
+@media (max-width: 375px) {
+  .last__news_content-top{
+    padding: 90px 50px 20px 50px;
+  }
+  .header_card{
+    padding: 73px 8px 47px 5px;
+}
+.footer__items_contacts{
+  width: unset;
+}
+.last__news_title{
+  font-size: 22px;
+}
+  }
+@media (max-width: 320px) {
+    
+}
